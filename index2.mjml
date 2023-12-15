@@ -1,0 +1,284 @@
+<mjml>
+  <mj-head>
+    <mj-title>Promotional Email Template</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Times" />
+      <mj-text color="white" padding="0" align="center" />
+      <mj-section text-align="center" padding="0" />
+      <mj-table align="center" />
+    </mj-attributes>
+    <mj-style>
+      .text-overlay{ background: rgba(0, 0, 0, 0.5); } .logo:hover, button:hover, .img:hover, .food-text:hover{ cursor:
+      pointer; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ccc">
+    <mj-section background-color="#5c0817">
+      <mj-column>
+        <mj-text css-class="logo" letter-spacing="5px" color="white">
+          <h1>Gen Market</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171a1b">
+      <mj-group css-class="nav-bar">
+        <mj-column padding-top="16px">
+          <mj-navbar>
+            <mj-navbar-link
+              css-class="link"
+              padding="0 6px 0 6px"
+              color="white"
+              href="#">
+              deals
+            </mj-navbar-link>
+            <mj-navbar-link
+              css-class="link"
+              padding="0 6px 0 6px"
+              color="white"
+              href="#">
+              Market
+            </mj-navbar-link>
+            <mj-navbar-link
+              css-class="link"
+              padding="0 6px 0 6px"
+              color="white"
+              href="#">
+              Produce
+            </mj-navbar-link>
+            <mj-navbar-link
+              css-class="link"
+              padding="0 6px 0 6px"
+              color="white"
+              href="#">
+              Meat
+            </mj-navbar-link>
+            <mj-navbar-link
+              css-class="link"
+              padding="0 6px 0 6px"
+              color="white"
+              href="#">
+              dairy
+            </mj-navbar-link>
+            <mj-navbar-link
+              css-class="link"
+              padding="0 6px 0 6px"
+              color="white"
+              href="#">
+              frozen
+            </mj-navbar-link>
+          </mj-navbar>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="white" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section
+      background-url="https://i.ibb.co/p0195YW/produce-banner.jpg"
+      background-size="cover">
+      <mj-column>
+        <mj-table color="white" css-class="text-overlay">
+          <tr align="center">
+            <td>
+              <h1 style="font-size: 50px">50% OFF</h1>
+              <h3 style="font-size: 20px">On any food item!</h3>
+              <button
+                style="
+                  width: 100px;
+                  font-size: 15px;
+                  border-radius: 15px;
+                  appearance: auto;
+                  color: white;
+                  background-color: #5c0817;
+                  border: solid transparent;
+                ">
+                Get Code
+              </button>
+            </td>
+          </tr>
+          <tr align="center">
+            <td>
+              <h1 style="font-size: 20px">Incredibly Delicious Food!</h1>
+              <h1 style="font-size: 15px">
+                Look at our weekly recommendations
+              </h1>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#171a1b">
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img"
+          src="https://i.ibb.co/yXVZgD3/eggo-waffles.webp"
+          alt="eggo-waffles" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$6.79</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$3.39</h1>
+        </mj-text>
+        <mj-text align="left" css-class="food-text" padding="0 25px 0 25px">
+          <h1>Kellog's Eggo Frozen Homestyle Waffles - 29.6oz/24ct</h1>
+        </mj-text>
+      </mj-column>
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img"
+          src="https://i.ibb.co/VxXBcM5/digiorno-pizza.webp"
+          alt="digiorno-pizza" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$7.79</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$3.89</h1>
+        </mj-text>
+        <mj-text align="left" css-class="food-text" padding="0 25px 0 25px">
+          <h1>DiGiorno Three Meat Frozen Pizza with Rising Crust - 29.8oz</h1>
+        </mj-text>
+      </mj-column>
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img"
+          src="https://i.ibb.co/4sNKNrF/lays-potato-chips.webp"
+          alt="lays-potato-chips" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$5.79</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$2.89</h1>
+        </mj-text>
+        <mj-text align="left" css-class="food-text" padding="0 25px 0 25px">
+          <h1>Lay's Classic Potato Chips - 13oz</h1>
+        </mj-text>
+      </mj-column>
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img"
+          src="https://i.ibb.co/9sbkBL7/ore-ida-frozen-french-fries.webp"
+          alt="ore-ida-frozen-french-fries" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$5.79</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$2.89</h1>
+        </mj-text>
+        <mj-text align="left" css-class="food-text" padding="0 25px 0 25px">
+          <h1>
+            Ore-Ida Gluten Free Frozen Golden Crinkles French Fries - 32oz
+          </h1>
+        </mj-text>
+      </mj-column>
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img" src="https://i.ibb.co/SJwxcNh/oreo.webp" alt="oreo" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$4.39</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$2.19</h1>
+        </mj-text>
+        <mj-text align="left" css-class="food-text" padding="0 25px 0 25px">
+          <h1>OREO Double Stuf Chocolate Sandwich Cookies</h1>
+        </mj-text>
+      </mj-column>
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img"
+          src="https://i.ibb.co/wsX0Ps9/special-k.webp"
+          alt="special-k" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$5.29</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$2.65</h1>
+        </mj-text>
+        <mj-text align="left" css-class="food-text" padding="0 25px 0 25px">
+          <h1>Kellogg's Special K Original Breakfast Cereal - 18oz</h1>
+        </mj-text>
+      </mj-column>
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img"
+          src="https://i.ibb.co/MVfBZKH/stouffers-mac-cheese.webp"
+          alt="stouffers-mac-cheese" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$5.49</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$2.75</h1>
+        </mj-text>
+        <mj-text align="left" css-class="food-text" padding="0 25px 0 25px">
+          <h1>Stouffer's Frozen Large Size Macaroni And Cheese - 20oz</h1>
+        </mj-text>
+      </mj-column>
+      <mj-column width="300px" padding-top="16px">
+        <mj-image css-class="img"
+          src="https://i.ibb.co/ynh7ncH/tyson-nuggets.webp"
+          alt="tyson-nuggets" />
+        <mj-text
+          text-decoration="line-through"
+          padding-left="25px"
+          align="left">
+          <h2 style="margin: 0">$6.99</h2>
+        </mj-text>
+        <mj-text font-size="20px" color="red" align="left" padding-left="25px">
+          <h1 style="margin: 0">$3.49</h1>
+        </mj-text>
+        <mj-text css-class="food-text" align="left" padding="0 25px 0 25px">
+          <h1>Tyson All Natural White Meat Fun Nuggets - Frozen - 29oz</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#5c0817">
+      <mj-column>
+        <mj-text css-class="logo" letter-spacing="5px" color="white">
+          <h1>Gen Market</h1>
+        </mj-text>
+        <mj-text>
+          <h3>Fresh food. Best quality. Everyday.</h3>
+        </mj-text>
+        <mj-social inner-padding="10px" icon-size="25px" mode="horizontal">
+          <mj-social-element
+            src="https://i.ibb.co/Y3sSZGF/linkedin.png"
+            href="www.linkedin.com/in/teriq-douglas-527233152">
+          </mj-social-element>
+          <mj-social-element
+            src="https://i.ibb.co/9nxQQ3y/facebook.png"
+            href="#">
+          </mj-social-element>
+          <mj-social-element
+            href="https://twitter.com/yungicedt"
+            src="https://i.ibb.co/7zHgKC2/twitter.png">
+          </mj-social-element>
+          <mj-social-element
+            href="#"
+            src="https://i.ibb.co/RNM5PSr/instagram.png">
+          </mj-social-element>
+          <mj-social-element href="#" src="https://i.ibb.co/MsZxJm5/tiktok.png">
+          </mj-social-element>
+        </mj-social>
+        <mj-text padding-bottom="16px" color="white">
+          1234 Road, City, State, Zip
+        </mj-text>
+        <mj-text padding-bottom="16px" color="white"> 777-777-7777 </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
