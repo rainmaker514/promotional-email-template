@@ -8,71 +8,57 @@
       <mj-table align="center" />
     </mj-attributes>
     <mj-style>
-      .text-overlay{ background: rgba(0, 0, 0, 0.5); } .logo:hover, button:hover, .img:hover, .food-text:hover{ cursor:
-      pointer; }
+      .text-overlay{ background: rgba(0, 0, 0, 0.5); } .logo:hover,
+      button:hover, .img:hover, .food-text:hover{ cursor: pointer; } .nav a{
+      text-decoration: none; color: white; align: center; display: block;}
+      @media(min-width: 768px){ .nav a{ font-size: 16px; } }
     </mj-style>
   </mj-head>
   <mj-body background-color="#ccc">
     <mj-section background-color="#5c0817">
       <mj-column>
-        <mj-text css-class="logo" letter-spacing="5px" color="white">
+        <mj-text css-class="logo" letter-spacing="5px">
           <h1>Gen Market</h1>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#171a1b">
-      <mj-group css-class="nav-bar">
-        <mj-column padding-top="16px">
-          <mj-navbar>
-            <mj-navbar-link
-              css-class="link"
-              padding="0 6px 0 6px"
-              color="white"
-              href="#">
-              deals
-            </mj-navbar-link>
-            <mj-navbar-link
-              css-class="link"
-              padding="0 6px 0 6px"
-              color="white"
-              href="#">
-              Market
-            </mj-navbar-link>
-            <mj-navbar-link
-              css-class="link"
-              padding="0 6px 0 6px"
-              color="white"
-              href="#">
-              Produce
-            </mj-navbar-link>
-            <mj-navbar-link
-              css-class="link"
-              padding="0 6px 0 6px"
-              color="white"
-              href="#">
-              Meat
-            </mj-navbar-link>
-            <mj-navbar-link
-              css-class="link"
-              padding="0 6px 0 6px"
-              color="white"
-              href="#">
-              dairy
-            </mj-navbar-link>
-            <mj-navbar-link
-              css-class="link"
-              padding="0 6px 0 6px"
-              color="white"
-              href="#">
-              frozen
-            </mj-navbar-link>
-          </mj-navbar>
-          <mj-divider
-            border-width="1px"
-            border-style="solid"
-            border-color="white" />
-        </mj-column>
-      </mj-group>
+      <mj-column padding-top="16px">
+        <mj-table
+          css-class="nav"
+          width="100%"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          padding="0"
+          color="white"
+          font-size="12px">
+          <tr align="center">
+            <td>
+              <a href="#">DEALS</a>
+            </td>
+            <td>
+              <a href="#">MARKET</a>
+            </td>
+            <td>
+              <a href="#">PRODUCE</a>
+            </td>
+            <td>
+              <a href="#">MEAT</a>
+            </td>
+            <td>
+              <a href="#">DAIRY</a>
+            </td>
+            <td>
+              <a href="#">FROZEN</a>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-divider
+          border-width="1px"
+          border-style="solid"
+          border-color="white" />
+      </mj-column>
     </mj-section>
     <mj-section
       background-url="https://i.ibb.co/p0195YW/produce-banner.jpg"
@@ -110,7 +96,8 @@
     </mj-section>
     <mj-section background-color="#171a1b">
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img"
+        <mj-image
+          css-class="img"
           src="https://i.ibb.co/yXVZgD3/eggo-waffles.webp"
           alt="eggo-waffles" />
         <mj-text
@@ -127,7 +114,8 @@
         </mj-text>
       </mj-column>
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img"
+        <mj-image
+          css-class="img"
           src="https://i.ibb.co/VxXBcM5/digiorno-pizza.webp"
           alt="digiorno-pizza" />
         <mj-text
@@ -144,7 +132,8 @@
         </mj-text>
       </mj-column>
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img"
+        <mj-image
+          css-class="img"
           src="https://i.ibb.co/4sNKNrF/lays-potato-chips.webp"
           alt="lays-potato-chips" />
         <mj-text
@@ -161,7 +150,8 @@
         </mj-text>
       </mj-column>
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img"
+        <mj-image
+          css-class="img"
           src="https://i.ibb.co/9sbkBL7/ore-ida-frozen-french-fries.webp"
           alt="ore-ida-frozen-french-fries" />
         <mj-text
@@ -180,7 +170,10 @@
         </mj-text>
       </mj-column>
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img" src="https://i.ibb.co/SJwxcNh/oreo.webp" alt="oreo" />
+        <mj-image
+          css-class="img"
+          src="https://i.ibb.co/SJwxcNh/oreo.webp"
+          alt="oreo" />
         <mj-text
           text-decoration="line-through"
           padding-left="25px"
@@ -195,7 +188,8 @@
         </mj-text>
       </mj-column>
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img"
+        <mj-image
+          css-class="img"
           src="https://i.ibb.co/wsX0Ps9/special-k.webp"
           alt="special-k" />
         <mj-text
@@ -212,7 +206,8 @@
         </mj-text>
       </mj-column>
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img"
+        <mj-image
+          css-class="img"
           src="https://i.ibb.co/MVfBZKH/stouffers-mac-cheese.webp"
           alt="stouffers-mac-cheese" />
         <mj-text
@@ -229,7 +224,8 @@
         </mj-text>
       </mj-column>
       <mj-column width="300px" padding-top="16px">
-        <mj-image css-class="img"
+        <mj-image
+          css-class="img"
           src="https://i.ibb.co/ynh7ncH/tyson-nuggets.webp"
           alt="tyson-nuggets" />
         <mj-text
