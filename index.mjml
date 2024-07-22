@@ -61,7 +61,7 @@
       </mj-column>
     </mj-section>
     <mj-section
-      background-url="https://i.ibb.co/p0195YW/produce-banner.jpg"
+      background-url="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680459/promo-banner_fghab4.jpg"
       background-size="cover">
       <mj-column>
         <mj-table color="white" css-class="text-overlay">
@@ -98,7 +98,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/yXVZgD3/eggo-waffles.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680458/eggo-waffles_ranomi.webp"
           alt="eggo-waffles" />
         <mj-text
           text-decoration="line-through"
@@ -116,7 +116,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/VxXBcM5/digiorno-pizza.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680457/digiorno-pizza_paxvur.webp"
           alt="digiorno-pizza" />
         <mj-text
           text-decoration="line-through"
@@ -134,7 +134,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/4sNKNrF/lays-potato-chips.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680457/lays-potato-chips_scfhus.webp"
           alt="lays-potato-chips" />
         <mj-text
           text-decoration="line-through"
@@ -152,7 +152,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/9sbkBL7/ore-ida-frozen-french-fries.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680458/ore-ida-frozen-french-fries_llohbi.webp"
           alt="ore-ida-frozen-french-fries" />
         <mj-text
           text-decoration="line-through"
@@ -172,7 +172,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/SJwxcNh/oreo.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680458/oreo_fzcvmm.webp"
           alt="oreo" />
         <mj-text
           text-decoration="line-through"
@@ -190,7 +190,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/wsX0Ps9/special-k.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680460/special-k_nwzpqs.webp"
           alt="special-k" />
         <mj-text
           text-decoration="line-through"
@@ -208,7 +208,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/MVfBZKH/stouffers-mac-cheese.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680461/stouffers-mac-cheese_yawysf.webp"
           alt="stouffers-mac-cheese" />
         <mj-text
           text-decoration="line-through"
@@ -226,7 +226,7 @@
       <mj-column width="300px" padding-top="16px">
         <mj-image
           css-class="img"
-          src="https://i.ibb.co/ynh7ncH/tyson-nuggets.webp"
+          src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680463/tyson-nuggets_jx2sgh.webp"
           alt="tyson-nuggets" />
         <mj-text
           text-decoration="line-through"
@@ -252,22 +252,22 @@
         </mj-text>
         <mj-social inner-padding="10px" icon-size="25px" mode="horizontal">
           <mj-social-element
-            src="https://i.ibb.co/Y3sSZGF/linkedin.png"
+            src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680457/linkedin_anbjfc.png"
             href="www.linkedin.com/in/teriq-douglas-527233152">
           </mj-social-element>
           <mj-social-element
-            src="https://i.ibb.co/9nxQQ3y/facebook.png"
+            src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680457/facebook_ml0exc.png"
             href="#">
           </mj-social-element>
           <mj-social-element
             href="https://twitter.com/yungicedt"
-            src="https://i.ibb.co/7zHgKC2/twitter.png">
+            src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680461/twitter_i6wmti.png">
           </mj-social-element>
           <mj-social-element
             href="#"
-            src="https://i.ibb.co/RNM5PSr/instagram.png">
+            src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680457/instagram_vxskt7.png">
           </mj-social-element>
-          <mj-social-element href="#" src="https://i.ibb.co/MsZxJm5/tiktok.png">
+          <mj-social-element href="#" src="https://res.cloudinary.com/dok4izhx6/image/upload/v1721680461/tiktok_vzjmpt.png">
           </mj-social-element>
         </mj-social>
         <mj-text padding-bottom="16px" color="white">
