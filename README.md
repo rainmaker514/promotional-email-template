@@ -2,4 +2,4 @@
 
 Live at https://rainmaker514.github.io/promotional-email-template/
 
-![image](https://github.com/rainmaker514/promotional-email-template/assets/36095171/fda6789d-20d7-4487-8f17-5956505270d4)
+![image](https://github.com/user-attachments/assets/709cff7e-5a1f-49d6-b8ca-883dd0d4afc3)
